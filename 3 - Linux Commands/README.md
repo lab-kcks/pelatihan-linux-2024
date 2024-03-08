@@ -7,18 +7,27 @@
 ## Table of Contents
 
 1. [Command pada Linux](#command-pada-linux)
+    - [Command Navigasi File dan Direktori](#command-navigasi-file-dan-direktori)
+    - [Command Operasi File (Hapus, Buat, Edit File)](#command-operasi-file-hapus-buat-edit-file)
+    - [Command Untuk User dan Permission](#command-untuk-user-dan-permission)
+    - [Command Advance Lain](#command-advance-lain)
 2. [Konsep User dan Permission pada Linux](#konsep-user-dan-permission-di-linux)
     - [User](#user)
     - [Permission](#permission)
     - [Pengaturan User dan Permission](#pengaturan-user-dan-permission)
 3. [Struktur Direktori pada Linux](#struktur-direktori-pada-linux)
+    - [Struktur direktori Windows](#struktur-direktori-windows)
+    - [Struktur direktori Linux](#struktur-direktori-linux)
+    - [Navigation Command](#navigation-command)
 4. [Konsep Process pada Linux](#konsep-process-pada-linux)
+    - [Foreground vs Background Process](#foreground-vs-background-process)
+    - [Command Terkait Process](#command-terkait-process)
 
 ## Command pada Linux
 
 Pada Linux, terdapat beberapa perintah (command) dan juga navigasi yang umum digunakan sebagai berikut.
 
-**Command Navigasi File dan Direktori:**
+### Command Navigasi File dan Direktori
 
 | Command      | Deskripsi |
 | ----------- | ----------- |
@@ -29,7 +38,7 @@ Pada Linux, terdapat beberapa perintah (command) dan juga navigasi yang umum dig
 | find `<nama file>` | untuk mencari file |
 | locate | untuk mencari file |
 
-**Command Operasi File (Hapus, Buat, Edit File):**
+### Command Operasi File (Hapus, Buat, Edit File)
 
 | Command | Deskripsi |
 | ----------- | ----------- |
@@ -42,7 +51,7 @@ Pada Linux, terdapat beberapa perintah (command) dan juga navigasi yang umum dig
 | sed | untuk melakukan filter teks |
 | awk | untuk memindahkan teks |
 
-**Command Untuk User dan Permission:**
+### Command Untuk User dan Permission
 
 | Command      | Deskripsi |
 | ----------- | ----------- |
@@ -54,7 +63,7 @@ Pada Linux, terdapat beberapa perintah (command) dan juga navigasi yang umum dig
 | chown | mengganti hak milik |
 | chgrp | untuk mengganti hak grup |
 
-**Command Advance Lain:**
+### Command Advance Lain
 
 | Command      | Deskripsi |
 | ----------- | ----------- |
@@ -158,7 +167,7 @@ Jika kita ingin belajar Linux lebih mendalam, hal yang paling dasar untuk dipaha
 |Temp           | Digunakan untuk menyimpan file-file sementara. |
 |Document and Settings | Berfungsi untuk menyimpan dokumen dan pengaturan-pengaturan user mulai dari desktop, start menu, dsb.|
 
-## Struktur Direktori Linux
+### Struktur Direktori Linux
 
 ![Linux Directory Structure](../assets/linux-directory-structure.png)
 
@@ -273,7 +282,7 @@ Pada gambar diatas terlihat command `sleep` dijalankan pada foreground maka term
 
 Namun terkadang `&` tetap berjalan di foreground, solusinya dapat menggunakan `nohup`, `nohup` adalah command yang digunakan untuk menjalankan command pada background dan tidak akan terpengaruh oleh SIGHUP (signal hangup) yang dikirimkan saat terminal ditutup. Contohnya adalah `nohup ping &`. namun nohup perlu diinstal terlebih dahulu dengan command `sudo apt-get install coreutils`.
 
-## Command Terkait Process
+### Command Terkait Process
 
 1. Berikut adalah beberapa perintah yang dapat digunakan untuk melihat process yang sedang berjalan :
 

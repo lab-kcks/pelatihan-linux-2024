@@ -4,6 +4,14 @@
 
 </div>
 
+## Table of Contents
+
+1. [VM/Linux](#a-vmlinux)
+    - [Nano](#nano)
+    - [Vim](#vim)
+2. [WSL](#b-wsl-windows-subsystem-linux)
+    - [VS Code](#vs-code)
+
 ## a. VM/Linux
 
 ### Nano

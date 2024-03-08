@@ -4,6 +4,15 @@
 
 </div>
 
+## Table of Contents
+
+1. [Fungsi GIT](#fungsi-git)
+2. [GIT Hosting](#git-hosting)
+3. [Instalasi GIT](#instalasi-git)
+4. [GIT Workflow](#git-workflow)
+5. [Command Dasar GIT](#command-dasar-git)
+6. [Setup Credentials Gitlab](#setup-credentials-gitlab)
+
 GIT merupakan kepanjangan dari Group Inclusive Tour, adalah sebuah version control yang banyak digunakan oleh programmer untuk berkolaborasi untuk pembuatan dan pengembangan aplikasi. Lebih lanjut, Git adalah perangkat lunak buatan Linus Torvald yang saat ini digunakan untuk mengelola source code. 
 
 ## Fungsi GIT
